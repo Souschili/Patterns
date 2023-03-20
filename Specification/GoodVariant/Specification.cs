@@ -1,8 +1,8 @@
 ﻿using Specification.Core;
-using System.Numerics;
 
 namespace Specification.GoodVariant
 {
+    // in this case we can overload operator 
     internal abstract class Specification<T>
     {
         public abstract bool IsSatisfy(T item);
